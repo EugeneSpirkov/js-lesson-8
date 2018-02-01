@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson 8</title>
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/select-style.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+	<div class="custom-select clearfix">
+		<h1>This is custom select with jQuery plugin</h1>
+		<select>
+			  <option data-display="Select">Nothing</option>
+			  <option value="1">Some option</option>
+			  <option value="2">Another option</option>
+			  <option value="3" disabled>A disabled option</option>
+			  <option value="4">Potato</option>
+		</select>
+	</div>
+
+
+
+	<div class="custom-jq-checkbox clearfix">
+		<h1>This is custom checkbox with jQuery</h1>
+		<div class="custom-jq-checkbox-box clearfix">
+			<input type="checkbox" name="jq-check" id="jq-check">
+			<label for="jq-check"><span></span>checkbox with jquery 1</label>
+		</div>
+		<div class="custom-jq-checkbox-box clearfix">
+			<input type="checkbox" name="jq-check2" id="jq-check2" checked>
+			<label for="jq-check2"><span></span>checkbox with jquery 1</label>
+		</div>
+		<div class="custom-jq-checkbox-box clearfix">
+			<input type="checkbox" name="jq-check3" id="jq-check3">
+			<label for="jq-check3"><span></span>checkbox with jquery 1</label>
+		</div>
+	</div>
+
+
+	<div class="custom-css-checkbox">
+		<h1>This is custom checkbox with CSS</h1>
+		<div class="custom-css-checkbox-box clearfix">
+			<input type="checkbox" name="css-check" id="css-check">
+			<label for="css-check">checkbox with css</label>
+		</div>		
+		<div class="custom-css-checkbox-box clearfix">
+			<input type="checkbox" name="css-check2" id="css-check2" checked>
+			<label for="css-check2">checkbox with css</label>
+		</div>		
+		<div class="custom-css-checkbox-box clearfix">
+			<input type="checkbox" name="css-check3" id="css-check3">
+			<label for="css-check3">checkbox with css</label>
+		</div>		
+	</div>
+
+
+	<div class="custom-menu">
+		<h1>This is animated menu with jQuery</h1>
+		<div class="custom-menu-box">
+			<ul>
+				<li><a href="#">home</a></li>
+				<li>
+					<a href="#" class="active">blog</a>
+					<ul class="inner">
+						<li><a href="#">blog</a></li>
+						<li><a href="#">news</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">foto</a></li>
+					</ul>
+				</li>
+				<li><a href="#">foto</a></li>
+				<li><a class="active" href="#">news</a>
+					<ul class="inner">
+						<li><a href="#">blog</a></li>
+						<li><a href="#">news</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">foto</a></li>
+					</ul>
+				</li>
+				<li><a href="#">about</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+	  <script src='js/jquery.nice-select.min.js'></script>
+	<script src='js/script.js'></script>
+</body>
+</html>
